@@ -1,4 +1,4 @@
-***Lab_4_202434774_Park Juyoung***
+### Lab_4_202434774_Park Juyoung
 ### LINUX 
 
 >Linux is an open-source Unix-like OS(introduced by Linus Torvalds in 1991)
