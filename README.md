@@ -1,9 +1,9 @@
 ***Lab_4_202434774_Park Juyoung***
 ### LINUX 
 
-Linux is an open-source Unix-like OS(introduced by Linus Torvalds in 1991)
+>Linux is an open-source Unix-like OS(introduced by Linus Torvalds in 1991)
 
-Linux is dominant in server environments and is also used in embedded and mobile systems like Android.
+>Linux is dominant in server environments and is also used in embedded and mobile systems like Android.
 ---
 
 ### Kernel and Shell
