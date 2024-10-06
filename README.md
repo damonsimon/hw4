@@ -1,14 +1,16 @@
 
 # 202434774 Park Juyoung
 
-### Standard Output/Input
+## Output/Input Redirection
+
+### Standard Output
 - Default output is to the screen.
 - Using ">" after a command (e.g.,ls) to create and sace the output
 in a file
 - The `cat` command is display the contents of text files.
 - Using `>>` is to add output to an existing file or create a new file.
 
-### Input Redirection
+### Standard Input
 - The standard input is taken from the keyboard.
 - Use `<` to read input from a file instead.
 - Input and output redirection can be combined in a single command.
