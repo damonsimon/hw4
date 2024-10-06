@@ -3,11 +3,12 @@
 
 ## Redirecting Input and Output
 
-### Output Redirection
-- By default, output is sent to the screen.
-- Using `>` is to save output into a file.
-- Using `>>` is to add output to an existing file or create a new file.
+ > Output Redirection
+- Default output is to the screen.
+- Redirect output using ">" after a command (e.g.,ls) to create and sace the output
+in a file
 - The `cat` command is display the contents of text files.
+- Using `>>` is to add output to an existing file or create a new file.
 
 ### Input Redirection
 - The standard input is taken from the keyboard.
