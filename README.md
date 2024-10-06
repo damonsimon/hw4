@@ -1,11 +1,11 @@
 
-# Command Line Interface (CLI) Essentials
+# 202434774 Park Juyoung
 
 ## Redirecting Input and Output
 
- > Output Redirection
+ > Standard Output/Input
 - Default output is to the screen.
-- Redirect output using ">" after a command (e.g.,ls) to create and sace the output
+- Using ">" after a command (e.g.,ls) to create and sace the output
 in a file
 - The `cat` command is display the contents of text files.
 - Using `>>` is to add output to an existing file or create a new file.
