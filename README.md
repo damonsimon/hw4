@@ -1,9 +1,7 @@
 
 # 202434774 Park Juyoung
 
-## Redirecting Input and Output
-
- > Standard Output/Input
+### Standard Output/Input
 - Default output is to the screen.
 - Using ">" after a command (e.g.,ls) to create and sace the output
 in a file
