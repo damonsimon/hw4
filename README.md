@@ -1,51 +1,68 @@
-### Lab_4_202434774_Park Juyoung
-### LINUX 
 
->Linux is an open-source Unix-like OS(introduced by Linus Torvalds in 1991)
+# Command Line Interface (CLI) Essentials
 
->Linux is dominant in server environments and is also used in embedded and mobile systems like Android.
----
+## Redirecting Input and Output
 
-### Kernel and Shell
+### Output Redirection
+- By default, output is sent to the screen.
+- Using `>` is to save output into a file.
+- Using `>>` is to add output to an existing file or create a new file.
+- The `cat` command is display the contents of text files.
 
-> **Kernel** : Core of the OS that controls hardware resources
+### Input Redirection
+- The standard input is taken from the keyboard.
+- Use `<` to read input from a file instead.
+- Input and output redirection can be combined in a single command.
 
-> **Shell** : Interface that allows users to communicate with the kernel 
----
+## Connecting Commands with Pipelines
+- The `|` allows chaining commands.
+- Ex.
+  ```bash
+  command_first | command_second | command_third
+  ```
 
-### CLI & GUI
->**CLI**
-1. Requires memorization of commands
-2. Faster, supports automation
-3. Primarily keyboard-based
- 4. Suited for developers
----
->**GUI**
-1. Easier and more intuitive
-2. Slower, requires manual work
-3. Mostly mouse-based with some keyboard shortcuts
-4. Suited for daily users
+## File Permissions
+- Use `chmod` to modify file permissions.
 
----
-### SHELL COMMANDS
-**simple explanation**
+### Superuser Access
+- The superuser can execute system-wide commands.
+- Use `sudo` before entering commands 
 
 
-```sh
-pwd : shows the current working
-ls : shows the files and subdirectories of the current working directory
-cd : changes the directory
-ls/bin : shows the files in /bin
-ls -l : shows the current working directory in more detail
-cp : copy a files or directory
-clear : clears the previous contents visually
-mv : moves or renames a file or directory
-rm : permanently deletes a file or directory
-mkdir : creates a new directory
-help : use help + @ to see detailed explanations of what options are available and what they do
-man : use man + @ to get detailed manuals
-exit : exit the terminal
-* : matches all file names
-g* : matches all files starting with "g"
-b*.txt : matches all files starting with "B" and ending with .txt
-```
+## Writing Shell Scripts
+- You can write and run custom shell scripts
+
+
+### Downloading Files from the Internet
+- **Wget** is using download files from the web.
+  ```bash
+  wget [URL]
+  ```
+
+- **Curl** can transfer data across the web.
+  ```bash
+  curl -O [URL]
+  ```
+
+### Searching Text with Grep
+- **Grep** find specific text file.
+  - Some useful options:
+    - `-i` is ignore case
+    - `-v` is invert the match
+    - `-r` is recursive search 
+
+
+
+## Advanced Input/Output and Pipelines
+
+### Redirecting Output
+- Redirect the output of a command in a file with `>`.
+- Use `>>` to append output to a file, do not overwriting.
+
+### Using Pipelines to Link Commands
+- Multiple commands can be used together using `|`:
+  ```bash
+  ls | grep ".txt"
+  ```
+
+
